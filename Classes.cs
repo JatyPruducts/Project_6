@@ -18,7 +18,8 @@ public class VisitChecker : Visiter
 
 public class SystemChecker
 {
-    private readonly List<Visibility> _elements;
+    private List<Visibility> _elements;
+    
     public SystemChecker()
     {
         _elements = new List<Visibility>
